@@ -27,7 +27,7 @@
         "psr-4": { "Omnipay\\Migs\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "^3"
+        "omnipay/common": "dev-client-common"
     },
     "require-dev": {
         "omnipay/tests": "^3",
@@ -39,5 +39,11 @@
             "dev-master": "3.0.x-dev"
         }
     },
+    "repositories": [
+	{
+            "type": "vcs",
+            "url": "https://github.com/vertexod/omnipay-migs.git"
+        }
+    ],
     "prefer-stable": true
 }
